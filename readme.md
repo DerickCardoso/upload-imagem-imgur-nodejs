@@ -21,10 +21,10 @@ npm start
 ## Mostrando exemplo
 - Selecione uma foto no seu explorador de arquivo (Clique em "Escolher arquivo")
 
-![Imagem index](http://imgur.com/a/QPMZzVw)
+![Imagem index](https://i.imgur.com/ravX8CY.png)
 
 - Envie a imagem (Clique "Enviar imagem")
 
-![Imagem /uploads](https://imgur.com/a/et4XV04)
+![Imagem /uploads](https://i.imgur.com/SyFSxND.png)
 
 Nessa página estará mostrando a imagem que você selecionou em uma tag HTML < img > e um link anexado na palavra "CLIQUE" que será sua imagem upada no imgur.
