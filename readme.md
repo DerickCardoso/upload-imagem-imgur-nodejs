@@ -21,7 +21,7 @@ npm start
 ## Mostrando exemplo
 - Selecione uma foto no seu explorador de arquivo (Clique em "Escolher arquivo")
 
-![Imagem index](https://imgur.com/a/QPMZzVw)
+![Imagem index](http://imgur.com/a/QPMZzVw)
 
 - Envie a imagem (Clique "Enviar imagem")
 
