@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Upload de Imagem</title>
+</head>
+<style>
+    main {
+        width: fit-content;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid gray;
+        border-radius: 5px;
+        padding: 30px;
+    }
+</style>
+<body>
+    <main>
+        <form action="/uploads" method="post" enctype="multipart/form-data">
+            <label for="image">Imagem:</label>
+            <input type="file" name="image" id="image"> <br>
+            <i>OBS: Envie um arquivo de imagem.</i> <br>
+            <button type="submit">Enviar imagem</button>
+        </form>
+        <% if (url) { %>
+            <h4>Clique aqui para acessar sua foto: <a target="_blank" href="<%= url %>">CLIQUE</a>!</h4>
+            <img src="<%= url %>" width="300px" alt="Essa é a sua foto">
+        <% } else { %>
+            <h4>Sua url vai aparecer aqui ao você upar a foto... </h4>
+        <% } %>
+    </main>
+</body>
+</html>
