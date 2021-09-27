@@ -4,8 +4,8 @@ Intuito desse projeto foi de criar uma api na qual eu conseguiria enviar uma ima
 
 ---
 ## Iniciando na sua máquina
-Siga os passos abaixo:
-- Instale as dependências do projeto
+Siga os passos abaixo
+- Instale as dependências do projeto:
 ```
 npm install
 ```
